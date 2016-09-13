@@ -18,14 +18,14 @@ permalink: /about/
 ## 工作经验
 
 
-* [**厦门美趣信息科技有限公司(iOS技术负责人) -  2014.04 — 至今](#) 
+* [**厦门美趣信息科技有限公司(iOS技术负责人)** -  2014.04 — 至今](#) 
    
    担任Team Leader的角色，负责这款app最初的架构设计、60%的功能实现以及iOS团队任务分配工作。现在带领团队用swift重构美趣APP。
 
 ***
 
 
-* [**厦门美亚百科信息科技股份有限公司(c/c++开发工程师)  -  2012.01 — 2014.04](#) 
+* [**厦门美亚百科信息科技股份有限公司(c/c++开发工程师)**  -  2012.01 — 2014.04](#) 
 
     从事网络信息安全和电子数据取证方面的开发
 
@@ -38,8 +38,8 @@ Founder, ABC Organisation -->
 
 ## 我的技能
 
-* **Ojtect-c  ** - `精通`
-* **Swift  ** - `精通` 
+* **Ojtect-c**  - `精通`
+* **Swift**  - `精通` 
 
 
 <!-- * **Skill 3** - `Skill` / `Skill` / `Skill`
@@ -48,7 +48,7 @@ Founder, ABC Organisation -->
 * **Skill 6** - `Skill` / `Skill`  -->
     
     
-## Achievements
+<!-- ## Achievements
 
 
 * [**This is my first achievement**](#) 
@@ -65,7 +65,7 @@ Founder, ABC Organisation -->
 
 * [**This is my third achievement**](#) 
 
-   Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula
+   Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula -->
 
 
 ## 联系我
