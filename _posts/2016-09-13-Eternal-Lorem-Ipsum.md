@@ -11,3 +11,10 @@ author: shefh
 
 这个是正文
 
+
+```
+- (instancetype)initWithSessionConfiguration:(NSURLSessionConfiguration *)configuration {
+    return [self initWithBaseURL:nil sessionConfiguration:configuration];
+}
+
+```
