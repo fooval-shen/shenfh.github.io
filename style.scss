@@ -17,6 +17,7 @@ html {
   font-size: 100%;
 }
 
+
 body {
   background: $white;
   font: 18px/1.4 $helvetica;
@@ -274,6 +275,58 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+}
+
+
+.entry table { 
+   border-collapse:collapse;border-spacing:0; 
+}
+
+
+th { text-align:left;  }
+
+td { margin:0;padding:0; }
+
+code {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+.entry td {
+  padding-top: 10px;    
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background: #f6f6f6;
+  border: 1px solid #AB47BC;
+}
+
+.entry code {
+    background: #f6f6f6;
+    border: 1px solid #d0d0d0;
+    border-radius: 3px 3px;
+    line-height: inherit;
+    vertical-align: baseline;
+    padding: 2px 2px;
+}
+
+.entry table {
+    position: relative;
+    width: 100%;
+    margin-bottom: 1em;
+    color: #4d4d4d;
+}
+
+.entry table th {
+    padding: 4px 0;
+    border: 1px solid #AB47BC;
+}
+.entrye table td {
+    padding: 84px 0;
+    border: 1px solid #AB47BC;
+}
+.entry table th {
+    background: #AB47BC;
+    color: #fff;
 }
 
 .wrapper-footer {

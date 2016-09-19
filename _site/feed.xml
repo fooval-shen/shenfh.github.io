@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://shenfh.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://shenfh.github.io//" rel="alternate" type="text/html" /><updated>2016-09-19T12:02:10+08:00</updated><id>https://shenfh.github.io//</id><title>shenfh</title><subtitle>苦心人、天不负,卧薪尝胆,三千越甲可吞吴！</subtitle><entry><title>IOS App Store 被拒总结</title><link href="https://shenfh.github.io//RejectByAppStore/" rel="alternate" type="text/html" title="IOS App Store 被拒总结" /><published>2016-09-17T00:00:00+08:00</published><updated>2016-09-17T00:00:00+08:00</updated><id>https://shenfh.github.io//RejectByAppStore</id><content type="html" xml:base="https://shenfh.github.io//RejectByAppStore/">&lt;p&gt;记录这2年提交AppStore审核的时候被拒的一些经验。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://shenfh.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://shenfh.github.io//" rel="alternate" type="text/html" /><updated>2016-09-19T16:59:39+08:00</updated><id>https://shenfh.github.io//</id><title>shenfh</title><subtitle>苦心人、天不负,卧薪尝胆,三千越甲可吞吴！</subtitle><entry><title>IOS App Store 被拒总结</title><link href="https://shenfh.github.io//RejectByAppStore/" rel="alternate" type="text/html" title="IOS App Store 被拒总结" /><published>2016-09-17T00:00:00+08:00</published><updated>2016-09-17T00:00:00+08:00</updated><id>https://shenfh.github.io//RejectByAppStore</id><content type="html" xml:base="https://shenfh.github.io//RejectByAppStore/">&lt;p&gt;记录这2年提交AppStore审核的时候被拒的一些经验。&lt;/p&gt;
 
 &lt;h2 id=&quot;section&quot;&gt;正文&lt;/h2&gt;
 &lt;hr /&gt;
@@ -51,4 +51,396 @@
   &lt;li&gt;&lt;a href=&quot;http://www.cocoachina.com/appstore/20141107/10165.html&quot;&gt;App Store–心酸的上线路，说说那些不可思议的被拒理由&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/20216099&quot;&gt;应用提交 App Store 上架被拒的原因都有哪些&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/20255638&quot;&gt;iOS 移动开发者们，亲身收到过哪些 App 提交被拒的原因&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>shefh</name></author><summary>记录这2年提交AppStore审核的时候被拒的一些经验。</summary></entry><entry><title>我的第一个博客</title><link href="https://shenfh.github.io//Begin/" rel="alternate" type="text/html" title="我的第一个博客" /><published>2016-09-13T00:00:00+08:00</published><updated>2016-09-13T00:00:00+08:00</updated><id>https://shenfh.github.io//Begin</id><content type="html" xml:base="https://shenfh.github.io//Begin/">&lt;p&gt;记录自己成长的过程&lt;/p&gt;</content><author><name>shefh</name></author><summary>记录自己成长的过程</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>shefh</name></author><summary>记录这2年提交AppStore审核的时候被拒的一些经验。</summary></entry><entry><title>我的第一个博客</title><link href="https://shenfh.github.io//Vim-Command/" rel="alternate" type="text/html" title="我的第一个博客" /><published>2016-09-16T00:00:00+08:00</published><updated>2016-09-16T00:00:00+08:00</updated><id>https://shenfh.github.io//Vim-Command</id><content type="html" xml:base="https://shenfh.github.io//Vim-Command/">&lt;h2 id=&quot;section&quot;&gt;光标移动&lt;/h2&gt;
+&lt;table width=&quot;100%&quot;&gt;
+	&lt;body&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;20%&quot;&gt;命令&lt;/th&gt;
+			&lt;th width=&quot;80%&quot;&gt;作用（解释）&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;code class=&quot;v-code&quot;&gt;h,j,k,l&lt;/code&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;code class=&quot;v-code&quot;&gt;h&lt;/code&gt;表示往左，&lt;code class=&quot;v-code&quot;&gt;j&lt;/code&gt;表示往下，&lt;code class=&quot;v-code&quot;&gt;k&lt;/code&gt;表示往右，&lt;code class=&quot;v-code&quot;&gt;l&lt;/code&gt;表示往上&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;code class=&quot;v-code&quot;&gt;Ctrl&lt;/code&gt;+&lt;code class=&quot;v-code&quot;&gt;f&lt;/code&gt;&lt;/td&gt;
+			&lt;td&gt;上一页&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;code class=&quot;v-code&quot;&gt;Ctrl&lt;/code&gt;+&lt;code class=&quot;v-code&quot;&gt;b&lt;/code&gt;&lt;/td&gt;
+			&lt;td&gt;下一页&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;code class=&quot;v-code&quot;&gt;w&lt;/code&gt;, &lt;code class=&quot;v-code&quot;&gt;e&lt;/code&gt;, &lt;code class=&quot;v-code&quot;&gt;W&lt;/code&gt;, &lt;code class=&quot;v-code&quot;&gt;E&lt;/code&gt;&lt;/td&gt;
+			&lt;td&gt;跳到单词的后面，小写包括标点&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;code class=&quot;v-code&quot;&gt;b&lt;/code&gt;, &lt;code class=&quot;v-code&quot;&gt;B&lt;/code&gt;&lt;/td&gt;
+			&lt;td&gt;以单词为单位往前跳动光标，小写包含标点&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;code class=&quot;v-code&quot;&gt;O&lt;/code&gt;&lt;/td&gt;
+			&lt;td&gt;开启新的一行&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;code class=&quot;v-code&quot;&gt;^&lt;/code&gt;&lt;/td&gt;
+			&lt;td&gt;一行的开始&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;code class=&quot;v-code&quot;&gt;$&lt;/code&gt;&lt;/td&gt;
+			&lt;td&gt;一行的结尾&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;code class=&quot;v-code&quot;&gt;gg&lt;/code&gt;&lt;/td&gt;
+			&lt;td&gt;文档的第一行&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;code class=&quot;v-code&quot;&gt;[N]G&lt;/code&gt;&lt;/td&gt;
+			&lt;td&gt;文档的第N行或者最后一行&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/body&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;插入模式&lt;/h2&gt;
+&lt;table width=&quot;100%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;20%&quot;&gt;命令&lt;/th&gt;
+			&lt;th width=&quot;80%&quot;&gt;作用（解释)&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;i&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;插入到光标前面&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;I&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;插入到行的开始位置&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;a&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;插入到光标的后面&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;A&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;插入到行的最后位置&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;o&lt;/code&gt;, &lt;code class=&quot;v-code&quot;&gt;O&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;新开一行&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;Esc&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;关闭插入模式&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;编辑&lt;/h2&gt;
+&lt;table width=&quot;100%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;20%&quot;&gt;命令&lt;/th&gt;
+			&lt;th width=&quot;80%&quot;&gt;作用（解释）&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;r&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;在插入模式替换光标所在的一个字符&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;J&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;合并下一行到上一行&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;s&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;删除光标所在的一个字符, 光标还在当行&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;S&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;删除光标所在的一行，光标还在当行，不同于&lt;code class=&quot;v-code&quot;&gt;dd&lt;/code&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;u&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;撤销上一步操作&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;ctrl&lt;/code&gt;+&lt;code class=&quot;v-code&quot;&gt;r&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;恢复上一步操作&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;.&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;重复最后一个命令&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;~&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;变换为大写&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;[N]&amp;gt;&amp;gt;&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;一行或N行往右移动一个tab&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;[N]&amp;lt;&amp;lt;&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;一行或N行往左移动一个tab&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;关闭&lt;/h2&gt;
+&lt;table width=&quot;100%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;20%&quot;&gt;命令&lt;/th&gt;
+			&lt;th width=&quot;80%&quot;&gt;作用（解释)&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;:w&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;保存&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;:wq&lt;/code&gt;,
+				&lt;code class=&quot;v-code&quot;&gt;:x&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;保存并关闭&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;:q&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;关闭（已保存）&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;:q!&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;强制关闭&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;搜索&lt;/h2&gt;
+&lt;table width=&quot;100%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;20%&quot;&gt;命令&lt;/th&gt;
+			&lt;th width=&quot;80%&quot;&gt;作用（解释)&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;/pattern&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;搜索（非插入模式)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;?pattern&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;往后搜索&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;n&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;光标到达搜索结果的前一个目标&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;N&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;光标到达搜索结果的后一个目标&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;section-5&quot;&gt;视觉模式&lt;/h2&gt;
+&lt;table width=&quot;100%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;20%&quot;&gt;命令&lt;/th&gt;
+			&lt;th width=&quot;80%&quot;&gt;作用（解释)&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;v&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;选中一个或多个字符&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;V&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;选中一行&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;section-6&quot;&gt;剪切和复制&lt;/h2&gt;
+&lt;table width=&quot;100%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;	
+			&lt;th width=&quot;20%&quot;&gt;命令&lt;/th&gt;
+			&lt;th width=&quot;80%&quot;&gt;作用（解释)&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;dd&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;删除一行&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;dw&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;删除一个单词&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;x&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;删除后一个字符&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;X&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;删除前一个字符&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;D&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;删除一行最后一个字符&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;[N]yy&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;复制一行或者N行&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;yw&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;复制一个单词&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;p&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;粘贴&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;section-7&quot;&gt;窗口操作&lt;/h2&gt;
+&lt;table width=&quot;100%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;20%&quot;&gt;命令&lt;/th&gt;
+			&lt;th width=&quot;80%&quot;&gt;作用（解释)&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;:split&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;水平方向分割出一个窗口&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;:vsplit&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;垂直方向分割出一个窗口&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;:close&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;关闭窗口&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				&lt;code class=&quot;v-code&quot;&gt;Ctrl&lt;/code&gt;+&lt;code class=&quot;v-code&quot;&gt;W&lt;/code&gt;
+			&lt;/td&gt;
+			&lt;td&gt;切换窗口, &lt;code class=&quot;v-code&quot;&gt;h&lt;/code&gt;到左边窗口，&lt;code class=&quot;v-code&quot;&gt;j&lt;/code&gt;到下方窗口，&lt;code class=&quot;v-code&quot;&gt;k&lt;/code&gt;到上方窗口，&lt;code class=&quot;v-code&quot;&gt;l&lt;/code&gt;到右边窗口&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>shefh</name></author><summary>光标移动
+
+	
+		
+			命令
+			作用（解释）
+		
+		
+			h,j,k,l
+			h表示往左，j表示往下，k表示往右，l表示往上
+		
+		
+			Ctrl+f
+			上一页
+		
+		
+			Ctrl+b
+			下一页
+		
+		
+			w, e, W, E
+			跳到单词的后面，小写包括标点
+		
+		
+			b, B
+			以单词为单位往前跳动光标，小写包含标点
+		
+		
+			O
+			开启新的一行
+		
+		
+			^
+			一行的开始
+		
+		
+			$
+			一行的结尾
+		
+		
+			gg
+			文档的第一行
+		
+		
+			[N]G
+			文档的第N行或者最后一行</summary></entry><entry><title>我的第一个博客</title><link href="https://shenfh.github.io//Begin/" rel="alternate" type="text/html" title="我的第一个博客" /><published>2016-09-13T00:00:00+08:00</published><updated>2016-09-13T00:00:00+08:00</updated><id>https://shenfh.github.io//Begin</id><content type="html" xml:base="https://shenfh.github.io//Begin/">&lt;p&gt;记录自己成长的过程&lt;/p&gt;</content><author><name>shefh</name></author><summary>记录自己成长的过程</summary></entry></feed>
