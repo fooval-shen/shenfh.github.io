@@ -1,13 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://shenfh.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://shenfh.github.io//" rel="alternate" type="text/html" /><updated>2016-09-18T17:42:10+08:00</updated><id>https://shenfh.github.io//</id><title>shenfh</title><subtitle>苦心人、天不负,卧薪尝胆,三千越甲可吞吴.</subtitle><entry><title>我的第一个博客</title><link href="https://shenfh.github.io//Eternal-Lorem-Ipsum/" rel="alternate" type="text/html" title="我的第一个博客" /><published>2016-09-13T00:00:00+08:00</published><updated>2016-09-13T00:00:00+08:00</updated><id>https://shenfh.github.io//Eternal-Lorem-Ipsum</id><content type="html" xml:base="https://shenfh.github.io//Eternal-Lorem-Ipsum/">&lt;p&gt;描述名。。。。。。。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://shenfh.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://shenfh.github.io//" rel="alternate" type="text/html" /><updated>2016-09-19T12:02:10+08:00</updated><id>https://shenfh.github.io//</id><title>shenfh</title><subtitle>苦心人、天不负,卧薪尝胆,三千越甲可吞吴！</subtitle><entry><title>IOS App Store 被拒总结</title><link href="https://shenfh.github.io//RejectByAppStore/" rel="alternate" type="text/html" title="IOS App Store 被拒总结" /><published>2016-09-17T00:00:00+08:00</published><updated>2016-09-17T00:00:00+08:00</updated><id>https://shenfh.github.io//RejectByAppStore</id><content type="html" xml:base="https://shenfh.github.io//RejectByAppStore/">&lt;p&gt;记录这2年提交AppStore审核的时候被拒的一些经验。&lt;/p&gt;
 
-&lt;h2 id=&quot;the-eternal-lorem-ipsum&quot;&gt;The Eternal Lorem Ipsum?&lt;/h2&gt;
+&lt;h2 id=&quot;section&quot;&gt;正文&lt;/h2&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;这个是正文&lt;/p&gt;
+&lt;p&gt;首先，要是程序有什么重大不过或者有违法的内容，那肯定是会被拒的。&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- (instancetype)initWithSessionConfiguration:(NSURLSessionConfiguration *)configuration {
-    return [self initWithBaseURL:nil sessionConfiguration:configuration];
-}
+&lt;h2 id=&quot;section-1&quot;&gt;应用信息里的名称里面 包含了关键词被拒&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;这个被拒的比较常见。个人总结主要是因为在每年苹果发布会结束的一段时间里面，审核会比较严格。在这段时间里面提交app名称里面要是保函了关键词，肯定被拒。所以想在app信息的名称里面添加关键词的最好在这段时候里面先去掉，之后再加回去。个人建议是不要在这个地方添加关键词，苹果已经说明了这个地方加关键词是起不到搜索作用的。&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>shefh</name></author><summary>描述名。。。。。。。</summary></entry></feed>
+&lt;h2 id=&quot;section-2&quot;&gt;关键字里面包含了和应用无关的关键字被拒&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;这个也基本是在审核比较严的时候被拒，其他时候没有碰到过。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;app&quot;&gt;app应用内涉及到抽奖的运营活动，未声明与苹果官方无关被拒&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;这个情况一定要在抽奖页面声明，这个抽奖活用和苹果没有任何关系的。（苹果要脱离责任）&lt;/li&gt;
+  &lt;li&gt;声明可以这样 “次抽奖活动与设备生产商Apple Inc.公司无关”。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;appiphone&quot;&gt;App社区里面做活动，活动产品是iphone被拒&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;苹果说做活动不能用苹果的产品，硬要我们改成其他的，而且要声明和苹果无关。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;qqqqqq&quot;&gt;使用QQ做第三方登录，但是手机没有安装QQ，点击提示“QQ没有安装”被拒&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;这种情况也只能判断没有安装QQ 微信等的时候隐藏了&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;app-1&quot;&gt;app里面包含该了检测更新的功能被拒&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;苹果自己自动更新的功能，不允许开发者自动检测更新。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;appstore&quot;&gt;AppStore忘记提供测试账号被拒&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;这个被拒的好冤枉。只能说苹果审核人员太懒了。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;healthkit&quot;&gt;使用Healthkit，但是没有在营销文档里面说明被拒&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;使用HealthKit框架的应用程序必须在营销文本中说明集成了Health app，同时必须在app用户界面清楚阐释HealthKit功能&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;连接&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.cocoachina.com/appstore/20141107/10165.html&quot;&gt;App Store–心酸的上线路，说说那些不可思议的被拒理由&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/20216099&quot;&gt;应用提交 App Store 上架被拒的原因都有哪些&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/20255638&quot;&gt;iOS 移动开发者们，亲身收到过哪些 App 提交被拒的原因&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>shefh</name></author><summary>记录这2年提交AppStore审核的时候被拒的一些经验。</summary></entry><entry><title>我的第一个博客</title><link href="https://shenfh.github.io//Begin/" rel="alternate" type="text/html" title="我的第一个博客" /><published>2016-09-13T00:00:00+08:00</published><updated>2016-09-13T00:00:00+08:00</updated><id>https://shenfh.github.io//Begin</id><content type="html" xml:base="https://shenfh.github.io//Begin/">&lt;p&gt;记录自己成长的过程&lt;/p&gt;</content><author><name>shefh</name></author><summary>记录自己成长的过程</summary></entry></feed>
