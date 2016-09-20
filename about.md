@@ -52,14 +52,68 @@ Founder, ABC Organisation -->
 
 ## 技能清单
 
-* **Objtect-c**  	- `精通`
-* **Swift**  		- `精通` 
-* **C/C++**  		- `精通`
-* **Android**		- `熟悉`
-* **Java**			- `熟悉`
-* **Go**			- `了解`
+<div class="grid-block">
+  <ul class="list-skills">      
+    <li>              
+      <span class="caption-skill">Objtect-c</span>        
+      <div class="progress">
+          <div class="progress-bar" style="width: 90%">
+              <span>90% </span>
+          </div>
+      </div>              
+    </li>
 
+    <li>
+        
+      <span class="caption-skill">Swift</span>
+  
+  
+      <div class="progress">
+          <div class="progress-bar" style="width: 70%">
+              <span>70% </span>
+          </div>
+      </div>
+        
+    </li>
 
+    <li>        
+      <span class="caption-skill">C/C++</span>  
+      <div class="progress">
+          <div class="progress-bar" style="width: 70%">
+              <span>70% </span>
+          </div>
+      </div>        
+    </li>
+
+    <li>        
+      <span class="caption-skill">Android</span> 
+      <div class="progress">
+          <div class="progress-bar" style="width: 60%">
+              <span>60% </span>
+          </div>
+      </div>        
+    </li>
+
+    <li>        
+      <span class="caption-skill">Java</span> 
+      <div class="progress">
+          <div class="progress-bar" style="width: 60%">
+              <span>60% </span>
+          </div>
+      </div>        
+    </li>
+
+    <li>        
+      <span class="caption-skill">go</span> 
+      <div class="progress">
+          <div class="progress-bar" style="width: 40%">
+              <span>40% </span>
+          </div>
+      </div>        
+    </li>
+      
+  </ul>
+</div>
 
 
 

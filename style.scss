@@ -278,6 +278,10 @@ nav {
 }
 
 
+//
+// 表格
+//
+
 .entry table { 
    border-collapse:collapse;border-spacing:0; 
 }
@@ -330,6 +334,103 @@ code {
     background: #AB47BC;
     color: #fff;
 }
+
+
+
+//
+// 进度条
+//
+.grid-block {
+    background-color: #f0f0f0;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #dddddd;
+    padding: 1px 2px;
+    margin: 10px 0;
+     border-radius: 10px;
+}
+
+.list-skills li .progress {
+    height: 25px;    
+}
+
+
+.list-skills li span {
+  
+  color: #E91E63;
+}
+.list-skills li .progress .progress-bar {
+    border-radius: 5px;
+    padding-top: 10px;    
+    text-align: right;   
+    height:10px;
+    position: relative;
+    background: #03A9F4;
+    box-shadow: none;
+}
+
+.list-skills li .progress .progress-bar span {
+    position: relative;
+    bottom: 3px;
+    font-size: 10px;
+    color: white;
+    right: -13px;
+    display: inline-block;
+    background: #D84E4E;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+.grid-block:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-color: transparent #ddd #ddd transparent;
+    border-style: solid;
+    border-width: 21px;
+}
+
+.grid-block:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-color: transparent #ebebeb #ebebeb transparent;
+    border-style: solid;
+    border-width: 20px;
+}
+
+.list-skills li .progress .progress-bar span:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    top: -5px;
+    border-bottom: 5px solid #D84E4E;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+
+.grid-block:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-color: transparent #ddd #ddd transparent;
+    border-style: solid;
+    border-width: 21px;
+}
+
 
 .wrapper-footer {
   margin-top: 50px;
