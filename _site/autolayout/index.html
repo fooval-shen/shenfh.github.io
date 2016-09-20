@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>关于 "Content Compression Resistance" 和 "Content Hugging" – shenfh – 苦心人、天不负,卧薪尝胆,三千越甲可吞吴！</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="在使用autolayout的时候，我们经常会看到“Content Compression Resistance”和“Content Hugging”这个配置选项，他们是做什么用的呢？
+
+" />
+    <meta property="og:description" content="在使用autolayout的时候，我们经常会看到“Content Compression Resistance”和“Content Hugging”这个配置选项，他们是做什么用的呢？
+
+" />
+    
+    <meta name="author" content="shenfh" />
+
+    
+    <meta property="og:title" content="关于 "Content Compression Resistance" 和 "Content Hugging"" />
+    <meta property="twitter:title" content="关于 "Content Compression Resistance" 和 "Content Hugging"" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" title="shenfh - 苦心人、天不负,卧薪尝胆,三千越甲可吞吴！" href="/feed.xml" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+  </head>
+
+  <body>
+    
+    
+    <div class="intro-header">    
+      <div class="container">
+        <div class="post-heading">
+            <h1>关于 "Content Compression Resistance" 和 "Content Hugging"</h1>
+            <span class="meta">Posted by <a href="/about"> shefh
+            </a> on September 20, 2016
+            <a href="/"> { 首页 }</a>
+            </span>
+        </div>
+            
+      </div>
+    </div>
+    
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+ <div class="space-extra-small">
+ </div>
+
+  <div class="entry">
+    <p>在使用autolayout的时候，我们经常会看到“Content Compression Resistance”和“Content Hugging”这个配置选项，他们是做什么用的呢？</p>
+
+<p><img src="/images/autolayout.png" alt="autolayout image" /></p>
+
+<h2 id="intrinsic-size">Intrinsic Size</h2>
+<p>要理解”Content Compression Resistance” 和 “Content Hugging”首先要知道”Intrinsic Size”即”固有尺寸”.它是一个根据自身内容大小而决定的尺寸。比如UILabel 和 UIButon 我们有时候只需要设置top 和left 的约束就能自动撑开或者换行。</p>
+
+<p><strong>引用自苹果官方Auto Layout指南里面对内部内容尺寸的描述：</strong></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Intrinsic Content Size
+
+Leaf-level views such as buttons typically know more about what size they should be than does the code that is positioning them. This is communicated through the intrinsic content size, which tells the layout system that a view contains some content that it doesn’t natively understand, and indicates how large that content is, intrinsically.
+
+For elements such as text labels, you should typically set the element to be its intrinsic size (select Editor &gt; Size To Fit Content). This means that the element will grow and shrink appropriately with different content for different languages. `
+</code></pre>
+</div>
+
+<h2 id="content-compression-resistance-priority">Content Compression Resistance Priority(内容压缩阻力优先级)</h2>
+<ul>
+  <li>优先级越高，则越晚轮到被压缩。如果不想视图被先压缩的话，把这个值调高就好了。</li>
+</ul>
+
+<div class="language-swift highlighter-rouge"><pre class="highlight"><code> <span class="kd">private</span> <span class="kd">lazy</span> <span class="k">var</span> <span class="nv">nameLabel</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="nv">label</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+    <span class="n">label</span><span class="o">.</span><span class="nf">setContentHuggingPriority</span><span class="p">(</span><span class="kt">UILayoutPriorityDefaultHigh</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="nv">forAxis</span><span class="p">:</span> <span class="o">.</span><span class="kt">Horizontal</span><span class="p">)</span>
+    <span class="n">label</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>    
+    <span class="k">return</span> <span class="n">label</span><span class="p">;</span>
+ <span class="p">}()</span>
+</code></pre>
+</div>
+
+<h2 id="content-hugging-priority">Content Hugging Priority(内容紧靠优先级)</h2>
+
+<ul>
+  <li>该优先级越高，这越晚轮到被拉伸</li>
+</ul>
+
+  </div>
+
+  
+</article>
+
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+            <div class="svg-icon">
+          
+<a href="mailto:991761652@qq.com"><i class="icon-envelope icon-2x"></i></a>
+
+
+<a href="https://github.com/shenfh"><i class="icon-github icon-2x"></i></a>
+
+
+
+
+
+
+
+
+            </div>
+        </footer>
+      </div>
+    </div>
+
+
+    
+
+  </body>
+</html>

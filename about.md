@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ""
-permalink: /about/
+title: "个人简历"
+permalink: /about
 ---
 
 
@@ -55,7 +55,7 @@ Founder, ABC Organisation -->
 <div class="grid-block">
   <ul class="list-skills">      
     <li>              
-      <span class="caption-skill">Objtect-c</span>        
+      <span  >Objtect-c</span>        
       <div class="progress">
           <div class="progress-bar" style="width: 90%">
               <span>90% </span>
@@ -65,7 +65,7 @@ Founder, ABC Organisation -->
 
     <li>
         
-      <span class="caption-skill">Swift</span>
+      <span  >Swift</span>
   
   
       <div class="progress">
@@ -77,7 +77,7 @@ Founder, ABC Organisation -->
     </li>
 
     <li>        
-      <span class="caption-skill">C/C++</span>  
+      <span  >C/C++</span>  
       <div class="progress">
           <div class="progress-bar" style="width: 70%">
               <span>70% </span>
@@ -86,7 +86,7 @@ Founder, ABC Organisation -->
     </li>
 
     <li>        
-      <span class="caption-skill">Android</span> 
+      <span  >Android</span> 
       <div class="progress">
           <div class="progress-bar" style="width: 60%">
               <span>60% </span>
@@ -95,7 +95,7 @@ Founder, ABC Organisation -->
     </li>
 
     <li>        
-      <span class="caption-skill">Java</span> 
+      <span  >Java</span> 
       <div class="progress">
           <div class="progress-bar" style="width: 60%">
               <span>60% </span>
@@ -104,7 +104,7 @@ Founder, ABC Organisation -->
     </li>
 
     <li>        
-      <span class="caption-skill">go</span> 
+      <span  >go</span> 
       <div class="progress">
           <div class="progress-bar" style="width: 40%">
               <span>40% </span>
