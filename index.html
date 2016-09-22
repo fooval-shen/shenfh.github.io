@@ -12,7 +12,7 @@ layout: default
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary" onclick="_czc.push(['_trackPageview', '{{ post.url }}','{{ site.baseurl }}']) ">Read More</a>
     </article>
   {% endfor %}
 </div>
