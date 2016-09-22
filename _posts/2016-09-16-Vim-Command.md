@@ -2,6 +2,7 @@
 layout: post
 title: Vim 常用命令
 author: shefh
+category: blog
 ---
 
 

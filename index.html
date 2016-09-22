@@ -1,9 +1,10 @@
 ---
 layout: default
+index: true
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in site.posts  %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -12,7 +13,7 @@ layout: default
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary" onclick="_czc.push(['_trackPageview', '{{ post.url }}','{{ site.baseurl }}']) ">Read More</a>
+      <a style="font-size:100%;" href="{{ site.baseurl }}{{ post.url }}" class="button button-primary" onclick="_czc.push(['_trackPageview', '{{ post.url }}','{{ site.baseurl }}']) ">阅读全文</a>
     </article>
   {% endfor %}
 </div>

@@ -297,7 +297,7 @@ code {
 }
 
 
-.entry td {
+.entry .tableRow td {
   padding-top: 10px;    
   padding-bottom: 10px;
   padding-left: 10px;
@@ -321,7 +321,7 @@ code {
     color: #4d4d4d;
 }
 
-.entry table th {
+.entry table  th {
     padding: 4px 0;
     padding-left: 10px;
     border: 1px solid #AB47BC;

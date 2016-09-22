@@ -2,6 +2,7 @@
 layout: post
 title: IOS App Store 被拒总结
 author: shefh
+category: blog
 ---
 
 记录这2年提交AppStore审核的时候被拒的一些经验。

@@ -71,27 +71,29 @@
 
 <p><strong>引用自苹果官方Auto Layout指南里面对内部内容尺寸的描述：</strong></p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Intrinsic Content Size
+<figure class="highlight"><pre><code class="language-linenos" data-lang="linenos">Intrinsic Content Size
 
 Leaf-level views such as buttons typically know more about what size they should be than does the code that is positioning them. This is communicated through the intrinsic content size, which tells the layout system that a view contains some content that it doesn’t natively understand, and indicates how large that content is, intrinsically.
 
-For elements such as text labels, you should typically set the element to be its intrinsic size (select Editor &gt; Size To Fit Content). This means that the element will grow and shrink appropriately with different content for different languages. `
-</code></pre>
-</div>
+For elements such as text labels, you should typically set the element to be its intrinsic size (select Editor &gt; Size To Fit Content). This means that the element will grow and shrink appropriately with different content for different languages. </code></pre></figure>
 
 <h2 id="content-compression-resistance-priority">Content Compression Resistance Priority(内容压缩阻力优先级)</h2>
 <ul>
   <li>优先级越高，则越晚轮到被压缩。如果不想视图被先压缩的话，把这个值调高就好了。</li>
 </ul>
 
-<div class="language-swift highlighter-rouge"><pre class="highlight"><code> <span class="kd">private</span> <span class="kd">lazy</span> <span class="k">var</span> <span class="nv">nameLabel</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="p">{</span>
+<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6</pre></td><td class="code"><pre> <span class="kd">private</span> <span class="kd">lazy</span> <span class="k">var</span> <span class="nv">nameLabel</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="p">{</span>
     <span class="k">let</span> <span class="nv">label</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
     <span class="n">label</span><span class="o">.</span><span class="nf">setContentHuggingPriority</span><span class="p">(</span><span class="kt">UILayoutPriorityDefaultHigh</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="nv">forAxis</span><span class="p">:</span> <span class="o">.</span><span class="kt">Horizontal</span><span class="p">)</span>
     <span class="n">label</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>    
     <span class="k">return</span> <span class="n">label</span><span class="p">;</span>
- <span class="p">}()</span>
-</code></pre>
-</div>
+ <span class="p">}()</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
 <h2 id="content-hugging-priority">Content Hugging Priority(内容紧靠优先级)</h2>
 
@@ -114,22 +116,10 @@ For elements such as text labels, you should typically set the element to be its
           
 <a href="mailto:991761652@qq.com"><i class="icon-envelope icon-2x"></i></a>
 
-
 <a href="https://github.com/shenfh"><i class="icon-github icon-2x"></i></a>
 
 
-
-
-
-
-
-
-
-
-
 <a href="http://weibo.com/u/5083502551"><i class="icon-pinterest-sign icon-2x"></i></a>
-
-
             </div>
         </footer>
       </div>
@@ -137,6 +127,9 @@ For elements such as text labels, you should typically set the element to be its
 
 
     
+
+
+
 
 
 

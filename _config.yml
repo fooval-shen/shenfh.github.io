@@ -15,20 +15,10 @@ description: 苦心人、天不负,卧薪尝胆,三千越甲可吞吴！
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  weibo: 5083502551
-  dribbble:
-  email: 991761652@qq.com
-  facebook:
-  flickr:
+  weibo: 5083502551 
+  email: 991761652@qq.com  
   github: shenfh
-  instagram:
-  linkedin: 
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: 
-  stackoverflow: # your stackoverflow profile, e.g. "users/3807565/akshay"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+  
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
@@ -52,7 +42,8 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
-permalink: /:title/
+# permalink: /:title/
+permalink: date
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:

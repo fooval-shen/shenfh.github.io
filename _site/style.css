@@ -330,7 +330,7 @@ code {
   font-size: 1em;
 }
 
-.entry td {
+.entry .tableRow td {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
