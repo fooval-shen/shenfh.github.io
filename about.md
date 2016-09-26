@@ -104,7 +104,7 @@ Founder, ABC Organisation -->
     </li>
 
     <li>        
-      <span  >html</span> 
+      <span  >Html</span> 
       <div class="progress">
           <div class="progress-bar" style="width: 60%">
               <span>60% </span>
@@ -112,7 +112,7 @@ Founder, ABC Organisation -->
       </div>        
     </li>
     <li>        
-      <span  >go</span> 
+      <span  >Go</span> 
       <div class="progress">
           <div class="progress-bar" style="width: 40%">
               <span>40% </span>
