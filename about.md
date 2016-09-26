@@ -111,14 +111,16 @@ Founder, ABC Organisation -->
           </div>
       </div>        
     </li>
-    <li>        
+
+    
+   <!--  <li>        
       <span  >Go</span> 
       <div class="progress">
           <div class="progress-bar" style="width: 40%">
               <span>40% </span>
           </div>
       </div>        
-    </li>
+    </li> -->
       
   </ul>
 </div>
