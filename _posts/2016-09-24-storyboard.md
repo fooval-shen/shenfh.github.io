@@ -64,5 +64,22 @@ if let vc = UIStoryboard(name: "main", bundle: nil).instantiateInitialViewContro
 }
   {% endhighlight %}
 
+* **Adjust Scroll View Insets** 自动调整scroll View的偏移。这个ViewController的针对Scroller View的一个属性。如果勾选这个，Scroller View的ContenOffset 就会自动向下偏移64个像素(导航栏和状态栏的高度).
 
-## continue...  
+{% highlight swift linenos %}
+automaticallyAdjustsScrollViewInsets
+
+Specifies whether or not the view controller should automatically adjust its scroll view insets.
+
+  @property(nonatomic, assign) BOOL automaticallyAdjustsScrollViewInsets
+
+Discussion
+  Default value is YES, which allows the view controller to adjust its scroll view insets in response to the screen areas consumed by the status bar, navigation bar, and toolbar or tab bar. Set toNO if you want to manage scroll view inset adjustments yourself, such as when there is more than one scroll view in the view hierarchy.
+{% endhighlight %}
+
+* **Hide Bootom Bar on Push** push的时候自动隐藏tabbar。
+* **Resize View From NIB** 加载View的时候更具系统，自动调整大小。
+* **Under Top Bars** 勾选后视图在导航栏下面，不会被遮住。
+* **Under Bottom Bars** 勾选后视图会扩展到tabbar。
+* **Under Opaque Bars** 勾选后视图上边界和下边界都不会被遮住。
+
