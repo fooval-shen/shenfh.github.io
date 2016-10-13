@@ -126,6 +126,16 @@ Founder, ABC Organisation -->
 </div>
 
 
+## 技能清单
+  
+  * 精通Object-c,熟悉swift。  
+  * 能熟练的应用Coredata、fmdb、Realm、AFNetworking、SDWebImage、JSPath、Masonry/Snapkit等开源项目。
+  * 能熟练使用代码写UI,VFL,autolayout,能熟练的使用Storyboard。
+  * 熟练掌握客户端MVC开发模式。
+  * 能熟练的使用Instruments下的性能调试工具。
+  * 熟悉Android能独立开一款app。
+  * 熟悉html/json
+  * 了解golang
 
 <!-- * **Skill 3** - `Skill` / `Skill` / `Skill`
 * **Skill 4** - `Skill` / `Skill` / `Skill` 
