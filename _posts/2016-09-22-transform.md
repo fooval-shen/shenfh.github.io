@@ -36,10 +36,11 @@ CGAffineTransform是实现了二维空间上UIView的平移，旋转，缩放等
     			[tx ty 1]
 ```
  结果为：
-```ruby
+
+{% highlight swift linenos %}
 x' = a*x + c*y + tx
 y' = b*x + d*y + ty
-```
+{% endhighlight %}
 
 ### 说明
  * **a** 表示水方向(x)的缩放 

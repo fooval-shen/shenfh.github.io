@@ -52,7 +52,6 @@ h1 {
     color: inherit;
   }
 }
-
 h2 {
   font-size: 24px;
   color: $h2-color;
@@ -66,6 +65,11 @@ h3 {
 h4 {
   font-size: 18px;
   color: $h4-color;
+}
+h6 {
+  font-size: 17px;
+  color: $h2-color; 
+  margin: 0;
 }
 
 p {
@@ -286,14 +290,17 @@ nav {
    border-collapse:collapse;border-spacing:0; 
 }
 
-
 th { text-align:left;  }
 
 td { margin:0;padding:0; }
 
 code {
-    font-family: monospace, serif;
-    font-size: 1em;
+    background: #f6f6f6;
+    border: 1px solid #d0d0d0;
+    border-radius: 3px 3px;
+    line-height: inherit;
+    vertical-align: baseline;
+    padding: 2px 2px;
 }
 
 
