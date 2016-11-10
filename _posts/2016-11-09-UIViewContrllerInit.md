@@ -8,6 +8,8 @@ published: true
 
 UIViewController的初始化有三种方式，分别是**代码初始化**，从**xib初始化**和从**Storyboard初始化**。
 
+其中**代码初始化**和**xib初始化**基本相同。
+
 ## 初始化方法
 初始化方法分别涉及到如下方法：
 * <h6>init</h6>

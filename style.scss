@@ -302,7 +302,10 @@ code {
     vertical-align: baseline;
     padding: 2px 2px;
 }
-
+.highlight code {
+   padding: 0;
+   border:0;
+}
 
 .entry .tableRow td {
   padding-top: 10px;    
