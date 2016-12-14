@@ -77,6 +77,19 @@ Object-c 经常会出现一些方法弃用或者方法找不到的警告，去�
 #pragma clang diagnostic pop
 {% endhighlight %}
 
+## nullable 和 nonull警告
+{% highlight swift linenos %}
+NS_ASSUME_NONNULL_BEGIN
+@interface UserModel<ObjectType> : NSObject
+
+@property(nonatomic,strong,nullable) ObjectType object;
+- (void)pushObject:(ObjectType)object;
+
+@end
+
+NS_ASSUME_NONNULL_END
+{% endhighlight %}
+
 ## 参考资料
 [警告命令](http://fuckingclangwarnings.com/)
 
