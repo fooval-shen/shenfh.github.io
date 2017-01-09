@@ -7,6 +7,7 @@ published: true
 ---
 
 ## `__attribute__((constructor))`
+
 这个属性表示构造器,用于修饰函数，这个函数会在main函数之前运行。
 
 
@@ -19,6 +20,7 @@ static inline void runBeforeMain(FHThreadBlock block) {
 }
 ```
 ## `__attribute__((objc_requires_super))`
+
 表示方法需要调用super 方法。子类如果没用调用super方法会抛出警告。
 
 
@@ -31,6 +33,7 @@ static inline void runBeforeMain(FHThreadBlock block) {
 ```
 
 ## `__attribute__((objc_subclassing_restricted))`
+
 表示类不能被继承，实现了类似java final class 的效果。如果被继承，编译器会编译不过。
 
 
