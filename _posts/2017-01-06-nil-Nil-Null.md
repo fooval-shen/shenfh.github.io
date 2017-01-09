@@ -24,7 +24,7 @@ nil 主要是给Objective-c 对象使用
 id objectValue = nil;
 TestObject *Object = nil;
 ```
-###### 说明：
+### 说明：
 刚被创建NSObject对象里面的所有对象指针都是指向nil。nil比较奇怪，虽然它是空数据，但是他还是可以有消息发送给它而且不会崩溃。
 
 
@@ -56,7 +56,9 @@ Nil主要用于Objective-c 类
 ```
 Class  class = Nil；
 ```
+
 # Null
+
 NSNull表示空对象,一般用于表示集合中值为空的对象。
 
 ```
