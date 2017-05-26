@@ -59,6 +59,14 @@ __attribute__((unavailable("'c' must have the value of an unsigned char or EOF")
 ``` 
 方法或者对象不可用，会抛出警告
 
+## `__attribute__((always_inline))`
+
+表示强制内联.内联函数在被调用的时候不会被编译成函数调用,而是直接扩展到调用函数体内.
+
+```
+#define force_inline __inline__ __attribute__((always_inline))
+```
+
 # 参考
 [Attributes in Clang](http://releases.llvm.org/3.8.0/tools/clang/docs/AttributeReference.html)
 [__attribute__](http://nshipster.com/__attribute__/)
