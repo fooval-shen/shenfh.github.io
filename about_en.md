@@ -10,6 +10,7 @@ permalink: /about_en
 ## Personal information
 
 * **FuHua shen/ Male /1989**
+* **Work experience**：4 years
 
 
 ## Summary
