@@ -35,7 +35,8 @@ Dates: October 2016 – Present
 iOS Development Engineer
 
 * Responsible for the information the function of the module development and code maintenance
-* Responsible for the information and personal home page module performance optimization and code optimization
+* Responsible for the information and personal home page module performance optimization and code optimization.
+* Developed test cases using XCTest.
 
 
 **Xiamen Mei Qu Technology co., Ltd**
@@ -45,6 +46,8 @@ Dates:April 2014 - October 2016
 * As the Team Leader of iOS Development, responsible for the app architectural design and the realization of the function of the 60% and the iOS Team work task assignment.
 * Responsible for project team iOS engineer recruitment.
 * Responsible for the performance optimization of app, user experience optimization, etc.
+* Built rich user interface applications supporting various devices using XIBs, Storyboard with auto layout, size classes, stack view, animation techniques.
+* Experienced in Instruments to fine-tune the app performance and memory management. 
 * Write or arrange iOS team universal tool library.
 * Develop and maintain project team iOS team programming norms.
 
