@@ -4,6 +4,7 @@ title: "个人简历"
 permalink: /about
 ---
 
+英文简历点击**[这里](/about_en)**
 
 ## 个人信息
 
@@ -162,7 +163,7 @@ Founder, ABC Organisation -->
 
    Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula -->
 
-
 ## 联系我
 
 [991761652@qq.com](mailto:991761652@qq.com)
+

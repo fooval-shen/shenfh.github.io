@@ -5,24 +5,31 @@ permalink: /about_en
 ---
 
 
+中文简历请点击**[这里](/about)**
+
 ## Personal information
 
 * **FuHua shen/ Male /1989**
-* **FuZhou university(FuZhou, China; 2008 - 2012) - Major in Computer**
 
+
+## Summary
+I’m working on iOS Development about 3 years and 2 years for c++. I make it my goal to create software with the user in mind, creating applications with a useable and intuitive user interface experience. I also understand the importance of creating highly readable and easily maintainable source code. I am constantly striving to learn new technologies and look to ways to better myself in this rapidly changing industry.
 
 ## Technical Skills
 * Familiar with iOS SDK
 * Familiar with Swift/Objective-C
 * Familiar with GCD/NSOperation, experience with concurrent programming.
+* Familiar with AutoLayout,VFL,Masonry/Snapkit,familiar with Storyboard.
 * Familiar with SQLite,CoreData, XML/JSON.
 * Familiar with HTTP/Socket, experience with networking programming.
 * Familiar with XCode/Instruments, good technology troubleshooting skills.
 * Excellent Code-style.
 * Almost 3 years of experience with iOS Development.
+* 2 years of experience with c++.
 
 ## Work Experience
 **Xiamen Meet You Technology co., Ltd**
+
 Dates: October 2016 – Present
 iOS Development Engineer
 
@@ -30,16 +37,28 @@ iOS Development Engineer
 * Responsible for the information and personal home page module performance optimization and code optimization
 
 
-
-
 **Xiamen Mei Qu Technology co., Ltd**
+
 Dates:April 2014 - October 2016
 
+* As the Team Leader of iOS Development, responsible for the app architectural design and the realization of the function of the 60% and the iOS Team work task assignment.
+* Responsible for project team iOS engineer recruitment.
+* Responsible for the performance optimization of app, user experience optimization, etc.
+* Write or arrange iOS team universal tool library.
+* Develop and maintain project team iOS team programming norms.
+
 **Xiamen Meiya Pico Information Co.,Ltd**
+
 Dates: January 2012 - April 2014
 
+* Engaged in the development of network information security
+
+## Some Projects
+**[MeetYou](https://itunes.apple.com/cn/app/id634896669?mt=8)**
+
+**[MeiQu](http://t.cn/RVtRxtG)**
 ## Education
-**[FuZhou University](http://en.fzu.edu.cn)** (FuZhou, China; 2008 - 2012)
+**[FuZhou University](http://www.fzu.edu.cn)** (FuZhou, China; 2008 - 2012)
 
 Major in Computer
 
