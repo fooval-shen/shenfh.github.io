@@ -19,6 +19,12 @@ static inline void runBeforeMain(FHThreadBlock block) {
     }
 }
 ```
+
+```
+__attribute__((constructor(PRIORITY)))
+PRIORITY 为优先级
+```
+
 ## `__attribute__((objc_requires_super))`
 
 表示方法需要调用super 方法。子类如果没用调用super方法会抛出警告。
@@ -53,11 +59,20 @@ void f(void) __attribute__((availability(macosx,introduced=10.4,deprecated=10.6,
 ```
 这句话的意思是说函数f是在macosx 10.4版本引进的,然后在10.6版本被弃用了,并且将在10.7版本彻底废弃。
 
+```
+#define UNAVAILABLE_ATTRIBUTE __attribute__((unavailable))
 
+#define NS_UNAVAILABLE UNAVAILABLE_ATTRIBUTE
+
+- (instancetype)init NS_UNAVAILABLE
+```
+
+
+## __attribute__((unavailable))
 ```
 __attribute__((unavailable("'c' must have the value of an unsigned char or EOF")))
 ``` 
-方法或者对象不可用，会抛出警告
+方法或者对象不可用，会抛出警告.如果强行调用编译器会提示错误
 
 ## `__attribute__((always_inline))`
 
@@ -65,6 +80,15 @@ __attribute__((unavailable("'c' must have the value of an unsigned char or EOF")
 
 ```
 #define force_inline __inline__ __attribute__((always_inline))
+```
+
+## __attribute__((deprecated))
+方法弃用警告
+
+```
+__attribute__((deprecated))
+
+__attribute__((deprecated(message)))
 ```
 
 # 参考
