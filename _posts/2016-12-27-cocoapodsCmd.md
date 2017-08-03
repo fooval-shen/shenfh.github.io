@@ -6,6 +6,9 @@ category: blog
 published: true
 ---
 
+* 目录  
+{:toc #markdown-toc}
+
 ## [安装](http://blog.devtang.com/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/)
 
 ```ruby

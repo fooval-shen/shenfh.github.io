@@ -6,6 +6,8 @@ category: blog
 published: true
 ---
 
+* 目录  
+{:toc #markdown-toc}
 
 在使用autolayout的时候，我们经常会看到“Content Compression Resistance”和“Content Hugging”这个配置选项，他们是做什么用的呢？
 
@@ -43,3 +45,5 @@ For elements such as text labels, you should typically set the element to be its
 ## Content Hugging Priority(内容紧靠优先级)
 
  * 该优先级越高，这越晚轮到被拉伸
+
+

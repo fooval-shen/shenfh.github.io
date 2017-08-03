@@ -6,6 +6,9 @@ category: blog
 published: true
 ---
 
+* 目录  
+{:toc #markdown-toc}
+
 ## `__attribute__((constructor))`
 
 这个属性表示构造器,用于修饰函数，这个函数会在main函数之前运行。

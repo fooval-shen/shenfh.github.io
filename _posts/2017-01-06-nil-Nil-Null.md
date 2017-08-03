@@ -6,6 +6,9 @@ category: blog
 published: true
 ---
 
+* 目录  
+{:toc #markdown-toc}
+
 本质nil，Nil，NULL和NSNull的值一样的,都表示空数据。
 nil,Nil,NULL 指针指向的内容是一样的，都是0x00。NSNull是一个对象，表示空对象。
 
