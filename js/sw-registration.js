@@ -46,7 +46,6 @@ if(navigator.serviceWorker){
     const data = e.data
     
     if(data.command == "UPDATE_FOUND"){
-      console.log("UPDATE_FOUND_BY_SW", data);
       createSnackbar({
         message: "Content updated.",
         actionText:"refresh",

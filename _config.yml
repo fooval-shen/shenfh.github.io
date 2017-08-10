@@ -14,8 +14,7 @@ baseurl: ""                             # for example, '/blog' if your blog host
 RSS: true
 weiboId:     5083502551
 github_username:    shenfh
-#facebook_username:  huxpro
-# linkedin_username:  firstname-lastname-idxxxx
+
 
 need_disqus: true
 disqus: shenfh-blog
@@ -50,9 +49,6 @@ kramdown:
 # Baidu Analytics 
 ba_track_id: 642f4a27c59a3369b53032afa5ccff98
 
-# Google Analytics
-#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-#ga_domain: huangxuan.me
 
 
 
