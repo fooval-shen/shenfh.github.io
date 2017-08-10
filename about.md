@@ -1,8 +1,11 @@
 ---
 layout: page
 title: "个人简历"
-permalink: /about
+description: "有志者,事竟成,破釜沉舟,百二秦关终属楚；苦心人,天不负,卧薪尝胆，三千越甲可吞吴！"
+header-img: "img/about-bg.jpg"
 ---
+
+
 
 英文简历点击**[这里](/about_en)**
 
@@ -29,7 +32,7 @@ permalink: /about
    
    * 担任Team Leader的角色，负责这款app最初的架构设计、60%的功能实现以及iOS团队任务分配工作。
    * 负责项目组iOS工程师的招募工作。
-   * 负责app的性能优化，用户体验优化等。  	
+   * 负责app的性能优化，用户体验优化等。    
    * 编写或整理iOS团队的通用工具类库。
    * 制定和维护项目组iOS团队的编程规范。
    * 现在带领团队用swift重构美趣APP。

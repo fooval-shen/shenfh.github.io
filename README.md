@@ -1,15 +1,1 @@
-
-#Theme from [Jekyll-Mono](https://github.com/AkshayAgarwal007/Jekyll-Mono)
-
-
-
-
-
-
-
-
-
-
-
-
-  
+###[From](https://github.com/Huxpro/huxpro.github.io)
