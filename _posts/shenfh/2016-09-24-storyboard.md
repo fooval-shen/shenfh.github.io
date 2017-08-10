@@ -15,7 +15,7 @@ tags:
 ## file inspector
 
 
-![fileInspector](/images/fileInspector.png) 
+![fileInspector](/img/Blog/fileInspector.png) 
 
  * **Use Auto Layout**   是否使用autolayout布局
  * **Use Size Classes** 是否使用SizeClass，如果使用autolayout这个选项一般都要开起来
@@ -25,13 +25,13 @@ tags:
 ## indentity inspector(标识区域)
 ### UIViewcontroller
 
- ![indentifySpector](/images/indentifySpector.png)
+ ![indentifySpector](/img/Blog/indentifySpector.png)
 
  * Cunstom Class 自定义UIView 或者Controller
   * **class** 自定的类名
   * **Module** 工程的模块名称。默认为当前工程名称。表示当前的class是隶属于那个模块的。模块名称在创建项目的时候就会生成，默认只有一个。如果想把一个工程编译成2个app，就需要重新建一个模块名。
 
-  ![moduleinfo](/images/moduleinfo.png)
+  ![moduleinfo](/img/Blog/moduleinfo.png)
 
   * **Storyboard ID** Storyboard的一个标示，用于区分其他Storyboard。可以通过这个ID 加载一个ViewController。
 
@@ -45,14 +45,14 @@ tags:
 
  * **User Defined Runtime Attributes** 用户添加的在runtime的属性。比较简单的用法就是画圆角：
 
- ![runtimeAttribute](/images/runtimeAttribute.png)
+ ![runtimeAttribute](/img/Blog/runtimeAttribute.png)
 
  
 
 ## Attributes inspector （属性区域）
  这里可以设置View的大部分属性
 
- ![attributesSpector](/images/attributesSpector.png) 
+ ![attributesSpector](/img/Blog/attributesSpector.png) 
 
  * **Simulated Metrics** 模拟度量。这个里面可以设置当前视图大小，是否横屏显示等。
  * **Is Initial View Controller** 设置StoryBoard的入口点。勾选上这个选项会有2个作用：

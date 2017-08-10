@@ -38,7 +38,7 @@ your app leaks memory until it exits.
 我总结下，大意就是说每次new 一个`NSURLSession`的时候，苹果底层都会创建一个关于 SSL 的缓存。[ an SSL cache associated to your app, which takes 10 minutes to clear,](https://developer.apple.com/library/content/qa/qa1727/_index.html)。但是这个缓存基本需要10分钟后才能释放。所以，建议对于`NSURLSession`的创建使用单例模式，或者直接使用`[NSURLSession sharedSession]`.
 
 然后自己写了一个demo，每次请求的时候重新穿件`NSURLSession`,结果如下
-![demo](/images/sessionleakdemo.png)
+![demo](/img/Blog/sessionleakdemo.png)
 
 
 

@@ -12,7 +12,7 @@ tags:
 
 在使用autolayout的时候，我们经常会看到“Content Compression Resistance”和“Content Hugging”这个配置选项，他们是做什么用的呢？
 
-![autolayout image](/images/autolayout.png) 
+![autolayout image](/img/Blog/autolayout.png) 
 
 
 ## Intrinsic Size
