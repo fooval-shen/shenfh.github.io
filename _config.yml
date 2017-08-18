@@ -71,3 +71,5 @@ service-worker: false
 
 
 
+
+theme: jekyll-theme-cayman
