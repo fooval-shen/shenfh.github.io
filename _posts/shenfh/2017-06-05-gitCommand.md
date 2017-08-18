@@ -4,8 +4,8 @@ title: Git常用命令集
 author: shefh
 catalog:  true
 tags:
-    - git
-    - Other
+  - Git
+  - Other
 header-img: img/home-building.jpg
 ---
 
