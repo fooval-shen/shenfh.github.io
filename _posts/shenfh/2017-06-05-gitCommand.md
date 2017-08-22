@@ -320,3 +320,11 @@ header-img: img/home-building.jpg
 ```
 
 
+## 删除git 缓存
+* 有些时候添加`gitignore`后发现没有起作用，这个时候需要清除git缓存。`gitignore`只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的
+
+```
+git rm -r --cached .
+```
+
+
