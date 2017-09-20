@@ -2,7 +2,6 @@
 layout: page
 title: "Resume"
 description: "Where there is a will, there is a way!"
-permalink: /about_en
 header-img: "img/about-bg.jpg"
 ---
 
