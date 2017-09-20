@@ -35,7 +35,12 @@ const HOSTNAME_WHITELIST = [
   "shenfh.github.io/",
   "cdnjs.cloudflare.com"
 ]
-const DEPRECATED_CACHES = ['precache-v1', 'runtime', 'main-precache-v1', 'main-runtime']
+const DEPRECATED_CACHES = [
+  'precache-v1', 
+  'runtime', 
+  'main-precache-v1', 
+  'main-runtime'
+]
 
 
 // The Util Function to hack URLs of intercepted requests
@@ -163,6 +168,8 @@ var fetchHelper = {
  */
 self.addEventListener('fetch', event => {
 
+  if (event.request.method !== 'GET') return;
+
   // Skip some of cross-origin requests, like those for Google Analytics.
   if (HOSTNAME_WHITELIST.indexOf(new URL(event.request.url).hostname) > -1) {
 
@@ -182,7 +189,7 @@ self.addEventListener('fetch', event => {
     // similar to HTTP's stale-while-revalidate: https://www.mnot.net/blog/2007/12/12/stale
     // Upgrade from Jake's to Surma's: https://gist.github.com/surma/eb441223daaedf880801ad80006389f1
     const cached = caches.match(event.request);
-    const fetched = fetch(getCacheBustingUrl(event.request), { cache: "no-store" });
+    const fetched = fetch(getCacheBustingUrl(event.request), { cache: "default" });
     const fetchedCopy = fetched.then(resp => resp.clone());
     
     // Call respondWith() with whatever we get first.
@@ -193,7 +200,7 @@ self.addEventListener('fetch', event => {
     event.respondWith(
       Promise.race([fetched.catch(_ => cached), cached])
         .then(resp => resp || fetched)
-        .catch(_ => caches.match('offline.html'))
+        .catch(_ => caches.match('404.html'))
     );
 
     // Update the cache with the version we fetched (only for ok status)
@@ -207,7 +214,7 @@ self.addEventListener('fetch', event => {
     if (isNavigationReq(event.request)) {
       // you need "preserve logs" to see this log
       // cuz it happened before navigating
-      console.log(`fetch ${event.request.url}`)
+      // console.log(`fetch ${event.request.url}`)
       event.waitUntil(revalidateContent(cached, fetchedCopy))
     }
   }
