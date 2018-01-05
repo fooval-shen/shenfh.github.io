@@ -327,4 +327,7 @@ header-img: img/home-building.jpg
 git rm -r --cached .
 ```
 
+## 参考
+1. [git-tips](https://github.com/521xueweihan/git-tips)
+
 
