@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Core Graphics Tutorial Part 1-Getting Started(译文)
-author:  shefh
+author:  shenfh
 catalog: true
 date:  2017-09-19 07:17:17
 tags:
