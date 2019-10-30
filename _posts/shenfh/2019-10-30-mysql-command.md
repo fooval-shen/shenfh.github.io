@@ -65,5 +65,26 @@ SET PASSWORD FOR 'xxx'@'%' = PASSWORD("xxxxxxxx");
 ```
 
 
+## 备份数据库
 
+### 备份整个数据库
+
+```
+mysqldump -u 用户名 -p 数据库名 > 导出的文件名
+
+eg: mysqldump -u test -p database > database.sql;
+```
+
+### 备份某一张表
+
+```sql
+    mysqldump -u 用户名 -p 数据库名 表名> 导出的文件名
+```
+
+## 恢复数据库
+
+```sql
+登录数据库后选中某张表后执行下面命令
+source /xx/xx/database.sql
+```
 
