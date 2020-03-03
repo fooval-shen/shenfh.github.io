@@ -88,3 +88,10 @@ eg: mysqldump -u test -p database > database.sql;
 source /xx/xx/database.sql
 ```
 
+## 查看表大小
+
+```s
+use information_schema;
+select concat(round(sum(DATA_LENGTH/1024/1024),2),'MB') as data  from TABLES where table_schema='xxx' and table_name='xxx';
+```
+
