@@ -35,7 +35,7 @@ CREATE USER 'username'@'host' IDENTIFIED BY 'password';
 #### 命令
 
 ```
-GRANT privileges ON databasexx.tablexx TO 'username'@'host'
+grant all privileges on *.* to 'username'@'host' with grant option;
 ```
 
 #### 说明

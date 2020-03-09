@@ -36,14 +36,13 @@ explain select * from t_user;
 | 类型 |  说明 |  备注 |
 | --- | --- | --- |
 | simple | 简单SELECT,不使用UNION或子查询等 |  |
-| primary | 包含union或者子查询，最外层的部分标记为primary|  |
-| subquery | 一般子查询中的子查询被标记为subquery，也就是位于select列表中的查询 |  |
+| primary | 最外面的查询 或者 主查询，在有子查询的语句中，最外面的select查询就是primary |  |
+| subquery | 子查询 |  |
 | derived | 派生表,该临时表是从子查询派生出来的，位于from中的子查询 |  |
 | union | 位于union中第二个及其以后的子查询被标记为union，第一个就被标记为primary如果是union位于from中则标记为derived |  |
-| union result | 用来从匿名临时表里检索结果的select被标记为union result |  |
-| dependent union | 首先需要满足UNION的条件，及UNION中第二个以及后面的SELECT语句，同时该语句依赖外部的查询 |  |
-| subquery | 子查询中第一个SELECT语句 |  |
-| dependent subquer | 子查询中的第一个SELECT，取决于外面的查询|  |
+| union result | union之后的结果 |  |
+| dependent union | unoin 中的第二个或随后的 select 查询，依赖于外部查询的结果集 |  |
+| dependent subquery | 子查询中的第一个 select 查询，依赖于外部 查询的结果集|  |
 
 ### table
 对应行正在访问哪一个表，表名或者别名
