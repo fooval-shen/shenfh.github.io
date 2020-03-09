@@ -95,3 +95,43 @@ use information_schema;
 select concat(round(sum(DATA_LENGTH/1024/1024),2),'MB') as data  from TABLES where table_schema='xxx' and table_name='xxx';
 ```
 
+
+## 故障排除
+
+### 查看所有mysql进程
+
+```
+show full processlist; 
+```
+
+
+### 查询是否锁表
+
+```
+show OPEN TABLES where In_use > 0;
+
+# 查看正在锁的事务
+SELECT * FROM INFORMATION_SCHEMA.INNODB_LOCKS; 
+```
+
+
+### 查看等待锁的事务
+
+```
+SELECT * FROM INFORMATION_SCHEMA.INNODB_TRX;
+
+SELECT * FROM INFORMATION_SCHEMA.INNODB_LOCK_WAITS; 
+```
+
+### 查看服务器状态
+
+```
+show status like '%lock%';
+```
+### 查看超时时间
+
+```
+show variables like '%timeout%';
+```
+
+
