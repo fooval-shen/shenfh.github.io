@@ -81,6 +81,28 @@ eg: mysqldump -u test -p database > database.sql;
     mysqldump -u 用户名 -p 数据库名 表名> 导出的文件名
 ```
 
+### 查询结果保存到`xls`
+
+
+* 查看mysql outfile 保存的文件夹路劲
+
+```
+SHOW VARIABLES LIKE "secure_file_priv";
+```
+
+* 查询结果保存到xls文件
+
+```
+select * 
+into outfile '/var/lib/mysql-files/lt.xls'
+from xxx;
+```
+* 转码
+
+```
+iconv -futf8 -tgb2312 -o lt.xls lt-1.xls
+```
+
 ## 恢复数据库
 
 ```sql
