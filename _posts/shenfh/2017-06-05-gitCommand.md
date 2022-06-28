@@ -10,6 +10,12 @@ header-img: img/home-building.jpg
 ---
 
 
+## 新建ssh key
+
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
 ## 新建代码库
 
 ```
