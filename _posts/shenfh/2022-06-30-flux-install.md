@@ -44,8 +44,37 @@ flux install --namespace=flux
 
 ### Add new git repository
 
+* Add Deployment to you git repository in branch flux-demo. 
+
 ```
-flux create source git fooval-gitops --url=ssh://xxx/test-gitops.git --branch=fooval --interval=1m --private-key-file=/xxxxn/.ssh/xx_rsa --namespace=flux
+# nginx.yaml
+
+apiVersion: apps/v1 
+kind: Deployment
+metadata:
+  name: nginx-fooval
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      app: nginx-fooval
+  replicas: 1 # tells deployment to run 1 pods matching the template
+  template: # create pods using pod definition in this template
+    metadata:
+      labels:
+        app: nginx-fooval
+    spec:
+      containers:
+      - name: tnginx-fooval
+        image: nginx
+        ports:
+        - containerPort: 80
+```
+
+* Create repository
+
+```
+flux create source git fooval-gitops --url=ssh://xxx/test-gitops.git --branch=flux-demo --interval=1m --private-key-file=/xxxxn/.ssh/xx_rsa --namespace=flux
 ```
 
 ### Add kustomize
