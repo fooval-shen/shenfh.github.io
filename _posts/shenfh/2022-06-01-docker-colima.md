@@ -4,7 +4,7 @@ title: Install Docker by Colima
 author: shefh
 catalog:  true
 tags:
-  - Docker
+  - docker
   - k8s
 header-img: img/blog-0.jpg
 ---
