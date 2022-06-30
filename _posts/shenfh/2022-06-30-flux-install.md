@@ -1,15 +1,15 @@
-
 ---
 layout: post
-title: Flux Install
+title: Flux CD Install
 author: shefh
 catalog:  true
 tags:
   - GitOps
+  - k8s
 header-img: img/home-building.jpg
 ---
 
-# Flux install guide
+# Flux CD install guide
 
 
 ## Install with bootstrap
