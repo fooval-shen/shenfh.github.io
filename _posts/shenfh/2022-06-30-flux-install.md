@@ -19,7 +19,7 @@ Using the flux bootstrap command you can install Flux on a Kubernetes cluster an
 If the Flux components are present on the cluster, the bootstrap command will perform an upgrade if needed. The bootstrap is idempotent, it’s safe to run the command as many times as you want.
 
 ```
-flux bootstrap git --url='ssh://git@git.ringcentral.com/fooval.shen/test-gitops.git' --private-key-file=/Users/fooval.shen/.ssh/rn_rsa --branch=test-pod --namespace=flux
+flux bootstrap git --url='ssh://git@git.xxxx/test-gitops.git' --private-key-file=/xxx/.ssh/xxx_rsa --branch=test-pod --namespace=flux
 ```
 
 ### What does the bootstrap do?
@@ -45,7 +45,7 @@ flux install --namespace=flux
 ### Add new git repository
 
 ```
-flux create source git fooval-gitops --url=ssh://git@git.ringcentral.com/fooval.shen/test-gitops.git --branch=fooval --interval=1m --private-key-file=/Users/fooval.shen/.ssh/rn_rsa --namespace=flux
+flux create source git fooval-gitops --url=ssh://xxx/test-gitops.git --branch=fooval --interval=1m --private-key-file=/xxxxn/.ssh/xx_rsa --namespace=flux
 ```
 
 ### Add kustomize
