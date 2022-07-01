@@ -79,6 +79,12 @@ flux create source git fooval-gitops --url=ssh://xxx/test-gitops.git --branch=fl
 
 ### Add kustomize
 
+* Method One
+```
+flux create kustomization fooval-gitops-ks --source=fooval-gitops --path="./" --prune=true --validation=client --interval=5m --health-check-timeout=2m --wait=true --namespace=flux
+```
+
+* Method Two
 ```
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
