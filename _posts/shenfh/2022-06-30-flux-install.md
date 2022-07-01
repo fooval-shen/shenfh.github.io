@@ -81,7 +81,7 @@ flux create source git fooval-gitops --url=ssh://xxx/test-gitops.git --branch=fl
 
 * Method One
 ```
-flux create kustomization fooval-gitops-ks --source=fooval-gitops --path="./" --prune=true --validation=client --interval=5m --health-check-timeout=2m --wait=true --namespace=flux
+flux create kustomization fooval-gitops-ks --source=fooval-gitops --path="./" --prune=true --interval=5m --health-check-timeout=2m --wait=true --namespace=flux
 ```
 
 * Method Two
@@ -99,6 +99,30 @@ spec:
   sourceRef:
     kind: GitRepository
     name: fooval-gitops
+```
+
+## Register Helm repositories and create Helm releases:
+
+
+### Create helm source
+```
+flux create source helm bitnami \
+  --interval=1h \
+  --url=https://charts.bitnami.com/bitnami \
+  --namespace=flux
+```
+
+### Create helm release
+
+```
+flux create helmrelease nginx-helm \
+  --interval=1h \
+  --release-name=fooval-nginx \
+  --target-namespace=default \
+  --source=HelmRepository/bitnami \
+  --chart=nginx \
+  --chart-version="12.0.5" \
+  --namespace=flux
 ```
 
 ## Get all ks / Show errors
