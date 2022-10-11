@@ -156,4 +156,16 @@ show status like '%lock%';
 show variables like '%timeout%';
 ```
 
+### 碎片整理
+
+```
+// For innoDB
+ALTER TABLE xxxx ENGINE= INNODB;
+
+
+// For MyISAM
+OPTIMIZE TABLE xxx;
+```
+
+
 
