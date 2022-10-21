@@ -88,8 +88,11 @@ db.help()
 ### Collections 操作命令
 
 ```
+## 创建collection
+db.createCollection(name, options)
+
 ## 添加新的文档
-db.collection_name.save({"name":"name_value","id": "id_value"})
+db.collection_name.insert({"name":"name_value","id": "id_value"})
 
 ## 查找文档
 db.collection_name.find({"name":"name_value","id": "id_value"})
