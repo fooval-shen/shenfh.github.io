@@ -169,3 +169,96 @@ OPTIMIZE TABLE xxx;
 
 
 
+### Connect 
+
+#### Connect to host
+
+```
+## Connect to remote host
+mysql -u user -h host -p -P port
+
+## Connect to localhost
+mysql -u user -p
+```
+
+#### Quit
+
+```
+quit;
+
+OR
+
+exit;
+```
+
+#### show mysql version and current time
+
+```
+select version(), now();
+
+## eg:
++-----------+---------------------+
+| version() | now()               |
++-----------+---------------------+
+| 8.0.27    | 2022-10-29 14:44:59 |
++-----------+---------------------+
+1 row in set (0.00 sec)
+```
+
+#### cancle execute 
+
+If your decide you do not want to execute a query that you are in the process of entering, cancle it by typing `\c`:
+
+```
+mysql> select
+    -> version()
+    -> now()
+    -> \c;
+ERROR: 
+No query specified
+```
+
+### Command
+
+#### Create a Database
+
+```
+create database `xxx` default character set utf8mb4 collate utf8mb4_unicode_ci;
+```
+
+#### Show table fields
+
+```
+mysql> describe user;
++------------------------------------+---------------+------+-----+---------+-------+
+| Field                              | Type          | Null | Key | Default | Extra |
++------------------------------------+---------------+------+-----+---------+-------+
+| user_id                            | varchar(355)  | NO   | PRI | NULL    |       |
+| token                              | varchar(1024) | YES  |     | NULL    |       |
++------------------------------------+---------------+------+-----+---------+-------+
+```
+
+Show table create DDL
+
+```
+show create table user;
+```
+
+#### Date Calculation Functions
+
+```
+## Calculate age
+timestampdiff(year, date, curdate())
+ 
+# eg:
+mysql> select create_time, curdate() as cur_date,timestampdiff(day,create_time,curdate()) as day_dif from out_order limit 3;
++---------------------+------------+---------+
+| create_time         | cur_date   | day_dif |
++---------------------+------------+---------+
+| 2018-08-24 10:29:19 | 2022-10-30 |    1527 |
+| 2018-08-24 10:29:19 | 2022-10-30 |    1527 |
+| 2018-08-24 10:29:19 | 2022-10-30 |    1527 |
++---------------------+------------+---------+
+3 rows in set (0.00 sec)
+ 
+```
