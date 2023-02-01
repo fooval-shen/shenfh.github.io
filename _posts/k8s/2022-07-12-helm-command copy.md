@@ -72,4 +72,4 @@ helm registry login  -u "username" -p "password"
 
 ```
 helm push ./__chart__/*.tgz oci://xxx.harbor-xxx.com/test
-``
+```
