@@ -55,3 +55,21 @@ helm list -n default
 helm uninstall my-release -n default
 
 ```
+
+### Package
+
+```
+helm package -d ./__chart__/ --version 1.0.0 --app-version 1.0.0 ./chart
+```
+
+### Helm Login
+
+```
+helm registry login  -u "username" -p "password"
+```
+
+### Helm publish
+
+```
+helm push ./__chart__/*.tgz oci://xxx.harbor-xxx.com/test
+``
