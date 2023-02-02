@@ -112,11 +112,32 @@ source /xx/xx/database.sql
 
 ## 查看表大小
 
-```s
-use information_schema;
-select concat(round(sum(DATA_LENGTH/1024/1024),2),'MB') as data  from TABLES where table_schema='xxx' and table_name='xxx';
+### 查看数据库容量大小
+
+```sql
+select
+table_schema as '数据库',
+table_name as '表名',
+table_rows as '记录数',
+truncate(data_length/1024/1024, 2) as '数据容量(MB)',
+truncate(index_length/1024/1024, 2) as '索引容量(MB)'
+from information_schema.tables
+order by data_length desc, index_length desc;
 ```
 
+### 查看指定库的容量大小
+
+```sql
+select
+table_schema as '数据库',
+table_name as '表名',
+table_rows as '记录数',
+truncate(data_length/1024/1024, 2) as '数据容量(MB)',
+truncate(index_length/1024/1024, 2) as '索引容量(MB)'
+from information_schema.tables
+where table_schema='mysql'
+order by data_length desc, index_length desc;
+```
 
 ## 故障排除
 
