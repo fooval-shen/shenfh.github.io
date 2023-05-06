@@ -5,7 +5,7 @@ author: shefh
 catalog:  true
 header-img: img/home-mountain.jpg
 tags:
-    - mysql
+    - sql
 ---
 
 ## 创建数据库

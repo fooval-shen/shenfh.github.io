@@ -5,7 +5,7 @@ author:  shenfh
 catalog: true
 date:  2020-03-02 07:17:17
 tags:
-    - mysql 
+    - sql 
 header-img: img/blog-0.jpg
 ---
 
