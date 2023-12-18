@@ -110,5 +110,12 @@ You can also retrieve information about a specific user with the following comma
 select * from product;
 ```
 
+### Import from SQL file
+
+```
+
+psql -h host -U user -f /data/xx.sql -d database
+```
+
 ### Quit psql - `\q`
 You quit the psql interface with the `\q` command.
