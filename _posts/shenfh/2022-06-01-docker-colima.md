@@ -20,8 +20,8 @@ https://github.com/abiosoft/colima
 ## start docker
 colima start
 
-## create VM with 1CPU, 2GiB memory and 10GiB storage.
-colima start --cpu 1 --memory 2 --disk 10
+## create VM with 2CPU, 2GiB memory and 10GiB storage.
+colima start --cpu 2 --memory 2 --disk 10 -p docker
 
 ## modify an existing VM to 4CPUs and 4GiB memory.
 colima stop
@@ -30,6 +30,7 @@ colima start --cpu 4 --memory 8
 
 ## Colima 的 ssh 命令进入虚拟机：
 colima ssh
+colima ssh -p docker
 
 
 ## 可以创建一个 k3s 作为 Kubernetes 运行时：
@@ -57,4 +58,18 @@ kubectl config use-context other-cluster-name}
 
 // look for more help
 kubectl config --help  
+```
+
+## Configurations
+
+### Set mirrors
+
+```
+## ~/.colima/xxx/colima.yaml
+docker:
+  registry-mirrors:
+    - https://registry.hub.docker.com
+    - https://mirror.baidubce.com
+    - https://docker.mirrors.ustc.edu.cn
+    - https://mirror.gcr.io
 ```
