@@ -73,3 +73,12 @@ docker:
     - https://docker.mirrors.ustc.edu.cn
     - https://mirror.gcr.io
 ```
+
+```
+docker:
+  registry-mirrors:
+    - https://dockerproxy.com
+    - https://mirror.baidubce.com
+    - https://docker.nju.edu.cn
+    - https://mirror.iscas.ac.cn
+```
