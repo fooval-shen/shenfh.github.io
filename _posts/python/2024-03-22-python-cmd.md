@@ -43,6 +43,10 @@ conda env export > environment.yaml
 
 ## Create an environment by a file
 conda env create -f environment.yaml
+
+## Install package
+conda install --name dify pycurl
+
 ```
 
 ###  Update conda source
