@@ -66,19 +66,48 @@ kubectl config --help
 
 ```
 ## ~/.colima/xxx/colima.yaml
+## mirror list: https://gist.github.com/y0ngb1n/7e8f16af3242c7815e7ca2f0833d3ea6
 docker:
   registry-mirrors:
-    - https://registry.hub.docker.com
+    - https://docker.m.daocloud.io
     - https://mirror.baidubce.com
     - https://docker.mirrors.ustc.edu.cn
     - https://mirror.gcr.io
 ```
 
+
+### Assign reachable IP address to the virtual machine
+
 ```
-docker:
-  registry-mirrors:
-    - https://dockerproxy.com
-    - https://mirror.baidubce.com
-    - https://docker.nju.edu.cn
-    - https://mirror.iscas.ac.cn
+## ~/.colima/xxx/colima.yaml
+network:
+  # Assign reachable IP address to the virtual machine.
+  # NOTE: this is currently macOS only and ignored on Linux.
+  # Default: false
+  address: true
+  
+  # Custom DNS resolvers for the virtual machine.
+  #
+  # EXAMPLE
+  # dns: [8.8.8.8, 1.1.1.1]
+  #
+  # Default: []
+  dns:
+    - 10.32.51.10
+    - 10.32.51.12
+    - 8.8.8.8
+  
+  # DNS hostnames to resolve to custom targets using the internal resolver.
+  # This setting has no effect if a custom DNS resolver list is supplied above.
+  # It does not configure the /etc/hosts files of any machine or container.
+  # The value can be an IP address or another host.
+  #
+  # EXAMPLE
+  # dnsHosts:
+  #   example.com: 1.2.3.4
+  dnsHosts: {}
+
 ```
+
+
+If get the issure 'Error response from daemon: Get "https://registry-1.docker.io/v2/": net/http: TLS handshake timeout', configure the dns.
