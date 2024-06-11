@@ -338,6 +338,16 @@ git commit --amend
 git rm -r --cached .
 ```
 
+## 其他
+
+```
+## 对比本地文件的差异
+git diff --no-index file1 file2
+
+##  对比2个分支某一个文件的差异
+git diff tag1 tag2/branch2 -- file 
+
+```
 ## 参考
 1. [git-tips](https://github.com/521xueweihan/git-tips)
 
